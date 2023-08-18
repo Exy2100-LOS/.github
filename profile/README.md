@@ -1,4 +1,5 @@
-# Galaxy S21 Devices running Exynos 2100 
+# Manifest for Galaxy S21 Devices running Exynos 2100
+currently only Base S21 (o1s) and Galaxy S21 Ultra (p3s) 
 ### Getting the manifest in place
 > Create ``.repo/local_manifests/roomservice.xml`` and add this inside it:
 > ```xml
