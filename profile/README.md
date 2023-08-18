@@ -15,9 +15,12 @@ currently only Base S21 (o1s) and Galaxy S21 Ultra (p3s)
 >    <project path="vendor/samsung/p3s" name="Exy2100-LOS/android_vendor_samsung_p3s"/>
 >    <project path="vendor/samsung/universal2100-common" name="Exy2100-LOS/android_vendor_samsung_universal2100-common"/>
 >    <project path="vendor/firmware" name="Exy2100-LOS/proprietary_vendor_firmware" revision="master"/>
+>    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung"/>
+>    <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy"/>
 > </manifest>
 > ```
 > And then sync the repos by
 >```console
 > repo sync --force-sync -j8
 >```
+https://github.com/LineageOS/android_hardware_samsung
