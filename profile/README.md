@@ -5,8 +5,7 @@ currently only Base S21 (o1s) and Galaxy S21 Ultra (p3s)
 > ```xml
 > <?xml version="1.0" encoding="UTF-8"?>
 > <manifest>
->    <default revision="lineage-20"/>
->    <default remote="github"/>
+>    <default remote="github" revision="lineage-20"/>
 >    <project path="device/samsung/o1s" name="Exy2100-LOS/android_device_samsung_o1s"/>
 >    <project path="device/samsung/p3s" name="Exy2100-LOS/android_device_android_device_samsung_p3s"/>
 >    <project path="device/samsung/universal2100-common" name="Exy2100-LOS/android_device_samsung_universal2100-common"/>
