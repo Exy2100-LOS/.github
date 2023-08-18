@@ -22,4 +22,3 @@ currently only Base S21 (o1s) and Galaxy S21 Ultra (p3s)
 >```console
 > repo sync --force-sync -j8
 >```
-https://github.com/LineageOS/android_hardware_samsung
