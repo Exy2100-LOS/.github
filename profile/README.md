@@ -5,16 +5,17 @@ currently only Base S21 (o1s) and Galaxy S21 Ultra (p3s)
 > ```xml
 > <?xml version="1.0" encoding="UTF-8"?>
 > <manifest>
->	  <default revision="lineage-20">
->	  <project path="device/samsung/o1s" name="Exy2100-LOS/android_device_samsung_o1s" remote="github" revision="lineage-20"/>
->	  <project path="device/samsung/p3s" name="Exy2100-LOS/android_device_android_device_samsung_p3s" remote="github" revision="lineage-20"/>
->	  <project path="device/samsung/universal2100-common" name="Exy2100-LOS/android_device_samsung_universal2100-common" remote="github" revision="lineage-20"/>
->	  <project path="kernel/samsung/o1s" name="Exy2100-LOS/android_kernel_samsung_o1s" remote="github" revision="lineage-20"/>
->	  <project path="kernel/samsung/p3s" name="Exy2100-LOS/android_kernel_samsung_p3s" remote="github" revision="lineage-20"/>
->	  <project path="vendor/samsung/o1s" name="Exy2100-LOS/android_vendor_samsung_o1s" remote="github" revision="lineage-20"/>
->	  <project path="vendor/samsung/p3s" name="Exy2100-LOS/android_vendor_samsung_p3s" remote="github" revision="lineage-20"/>
->	  <project path="vendor/samsung/universal2100-common" name="Exy2100-LOS/android_vendor_samsung_universal2100-common" remote="github" revision="lineage-20"/>
->     <project path="vendor/firmware" name="Exy2100-LOS/proprietary_vendor_firmware" remote="github" revision="master"/>
+>    <default revision="lineage-20"/>
+>    <default remote="github"/>
+>    <project path="device/samsung/o1s" name="Exy2100-LOS/android_device_samsung_o1s"/>
+>    <project path="device/samsung/p3s" name="Exy2100-LOS/android_device_android_device_samsung_p3s"/>
+>    <project path="device/samsung/universal2100-common" name="Exy2100-LOS/android_device_samsung_universal2100-common"/>
+>    <project path="kernel/samsung/o1s" name="Exy2100-LOS/android_kernel_samsung_o1s"/>
+>    <project path="kernel/samsung/p3s" name="Exy2100-LOS/android_kernel_samsung_p3s"/>
+>    <project path="vendor/samsung/o1s" name="Exy2100-LOS/android_vendor_samsung_o1s"/>
+>    <project path="vendor/samsung/p3s" name="Exy2100-LOS/android_vendor_samsung_p3s"/>
+>    <project path="vendor/samsung/universal2100-common" name="Exy2100-LOS/android_vendor_samsung_universal2100-common"/>
+>    <project path="vendor/firmware" name="Exy2100-LOS/proprietary_vendor_firmware" revision="master"/>
 > </manifest>
 > ```
 > And then sync the repos by
